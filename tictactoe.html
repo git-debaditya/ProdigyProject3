@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+
+  <link rel="stylesheet" href="tictactoe.css">
+  
+</head>
+<body>
+
+    <div class="container">
+      <div id="board"></div>
+      <div class="buttons">
+          <button id="start-btn" onclick="startGame()">Start Game</button>
+          <button id="player-btn" onclick="chooseOpponent('player')" style="display: none;">Player 2</button>
+          <button id="ai-btn" onclick="chooseOpponent('ai')" style="display: none;">Play against AI</button>
+          <button id="reset-btn" onclick="resetBoard()" style="display: none;">Reset</button>
+          <button id="play-again-btn" onclick="playAgain()" style="display: none;">Play Again</button>
+      </div>
+    </div>
+
+  <script src="tictactoe.js"></script>
+  
+</body>
+</html>
